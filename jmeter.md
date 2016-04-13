@@ -22,7 +22,8 @@
 jmeter写的这build.xml文件都能干嘛？ 这应该就是我们的重点了。只有明白了这个build文件我没就能调用了jmeter了.
 
 ## jmeter/extras下build.xml ##
----------------------
+--------------------
+
 先运行一把
 ![jmeter截图](images/49.png "jmeter示例截图")
 失败了！但可以看到 一个重要的信息  指定了一个 Test.jmx 的文件。jmx文件 这个相信用过jmeter的人都知道怎么来的吧！
@@ -112,6 +113,10 @@ ok 那么结果在那里呢？成功了是成功了。这是我们可以看到�
         classpathref="jmeter.classpath"
         classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask"/> jmeter ant插件定义 
 `    
+
+其实翻译代码没什么意思。后面的代码就算了吧。
+最近发现一个叫“多说”的评论api。加入到我这个静态博客吧！
+
 
 
 
