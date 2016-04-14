@@ -3,14 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style type="text/css">
+body{
+	position: relative;
+}
+.inputWrodWapper{
+	position: absolute;
+	z-index:9;
+	left: 140px;
+	top: 200px;
+}
+.inputWrodWapper *{
+	position:relative;
+}
+input {
+	background-color: transparent;
+	border: 1px solid gray;
+	color: #fff;
+	width: 200px;
+	height: 100px;
+    line-height: 150%;
+    font-size: 32px;
+    text-align: center;
+}
+</style>
 </head>
 <body>
-
-
-
-
 <canvas id="myCanvas" width="800px" height="1000px">your browser does not support the canvas tag </canvas>
 
+<div class="inputWrodWapper" >
+	<input />
+</div>
 
 <script type="text/javascript">
 
